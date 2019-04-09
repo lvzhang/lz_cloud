@@ -1,0 +1,12 @@
+server:;
+  port: 9002
+spring:
+  application:
+    name: MICROSERVICE-ZUUL-GATEWAY
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8001/eureka
+  instance:
+    instance-id: gateway-9002.com
+    prefer-ip-address: false

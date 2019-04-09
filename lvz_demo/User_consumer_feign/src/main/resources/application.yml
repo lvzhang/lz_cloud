@@ -1,0 +1,26 @@
+server:
+  port: 1006
+eureka:
+  client:
+    registerWithEureka:  true #不注册到Eureka,不在注册中心显示
+    service-url:
+      defaultZone: http://localhost:8001/eureka
+#      defaultZone: http://eureka-7001.com:7001/eureka,http://eureka-7002.com:7002/eureka
+feign:
+  hystrix:
+    enabled: true #开启熔断支持
+  client:
+    config:
+      remote-service:           #服务名，填写default为所有服务
+        connectTimeout: 3000
+        readTimeout: 3000
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 3000
+spring:
+  application:
+    name: USER-CONSUMER

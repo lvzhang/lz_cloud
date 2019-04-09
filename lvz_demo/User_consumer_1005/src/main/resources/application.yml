@@ -1,0 +1,13 @@
+server:
+  port: 1005
+spring:
+  application:
+    name: USER-CONSUMER #不能使用下划线，否则服务不能使用
+eureka:
+  client:
+    registerWithEureka: true #不注册到Eureka,不在注册中心显示
+    service-url:
+      defaultZone: http://localhost:8001/eureka
+#      defaultZone: http://eureka-7001.com:7001/eureka,http://eureka-7002.com:7002/eureka
+  instance:
+    prefer-ip-address: true #显示客户端真实ip

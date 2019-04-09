@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_parent/cloud_erueka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvz_common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvz_demo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvz_demo/User_Interface" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvz_demo/User_Provider_1001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvz_demo/User_Provider_1003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvz_demo/User_Provider_Hystrix_1004" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvz_demo/User_consumer_1005" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvz_demo/User_consumer_feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvz_demo/zuul_gateway_9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvz_demo/zuul_gateway_9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvz_demo/zuul_gateway_9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvz_demo/zuul_gateway_9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvz_demo/zuul_gateway_9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvz_demo/zuul_gateway_9002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/plant_parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/plant_parent/plant_provider" charset="UTF-8" />
+  </component>
+</project>
