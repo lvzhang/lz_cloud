@@ -15,8 +15,6 @@ import java.util.Date;
 
 /**
  * 通知消息对象
- *
- * @author oKong
  */
 @Document(collection = "notify_msg")//集合名
 @Data

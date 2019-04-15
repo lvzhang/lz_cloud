@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.*;
 /**
  * MongoRepository MongoRepository方式
  *
- * @author oKong
  */
 @RestController
 @RequestMapping("/repository")
