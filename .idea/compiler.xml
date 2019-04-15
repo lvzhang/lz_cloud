@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud_erueka" />
         <module name="lvz_common" />
+        <module name="lvz_mongodb" />
         <module name="plant_provider" />
         <module name="User_consumer_1005" />
         <module name="User_consumer_feign" />

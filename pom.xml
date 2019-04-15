@@ -13,6 +13,7 @@
         <module>cloud_parent</module>
         <module>plant_parent</module>
         <module>lvz_demo</module>
+        <module>lvz_mongodb</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
