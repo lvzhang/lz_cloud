@@ -7,8 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud_erueka" />
+        <module name="kafka (2)" />
         <module name="lvz_common" />
         <module name="lvz_mongodb" />
+        <module name="lvz_mybatisplus" />
+        <module name="lvz_zookeeper" />
         <module name="plant_provider" />
         <module name="User_consumer_1005" />
         <module name="User_consumer_feign" />
@@ -18,8 +21,16 @@
         <module name="User_Provider_Hystrix_1004" />
         <module name="zuul_gateway_9002" />
       </profile>
+      <profile name="Annotation profile for lvz_parent" enabled="true">
+        <sourceOutputDir name="../lvz_kafka_provider/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../lvz_kafka_provider/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="kafka (1)" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="lvz_kafka_consumer" target="1.5" />
+      <module name="lvz_kafka_provider" target="1.8" />
       <module name="zuul_gateway_9001" target="1.5" />
     </bytecodeTargetLevel>
   </component>
