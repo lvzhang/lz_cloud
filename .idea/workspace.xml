@@ -2,35 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa9ae410-7e8e-42f1-86a3-5afe33a469f1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_consumer/src/main/java/cn/lvz/kafka/consumer/KafkaConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_consumer/src/main/java/cn/lvz/kafka/consumer/controller/MyConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_provider/src/main/java/lvz/kafka/provider/KafkaProviderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_provider/src/main/java/lvz/kafka/provider/controller/KafkaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_kafka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_mq/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_mybatisplus/lvz_mybatisplus.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_mybatisplus/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/MybatisPlusApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/config/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/entity/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/generator/CodeGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/generator/MpGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_mybatisplus/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_mybatisplus/src/main/resources/mybatis-plus.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_mybatisplus/src/test/java/cn/it/lvz/SampleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_zookeeper/lvz_zookeeper.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_zookeeper/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_zookeeper/src/main/java/cn/it/lvz/CuratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lvz_zookeeper/src/main/java/cn/it/lvz/ZookpeerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_es/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_es/src/main/java/cn/it/lvz/ESApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_es/src/main/java/cn/it/lvz/controller/ElasticSearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_es/src/main/java/cn/it/lvz/entity/ElasticEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_es/src/main/java/cn/it/lvz/repository/ESDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_es/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/java/cn/it/lvz/RabbitMQApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/java/cn/it/lvz/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/java/cn/it/lvz/queue/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/java/cn/it/lvz/receiver/CommonMqListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/java/cn/it/lvz/receiver/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/java/cn/it/lvz/send/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/test/java/cn/it/lvz/RabbitmqHelloApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/lvz_rocketmq.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/AsyncProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/OnewayProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/SyncProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/broadcast/PushConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/broadcast/PushConsumer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/order/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/order/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/order/m/Consumer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/order/m/Consumer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/order/m/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/pull_push/PullConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/quickstart/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/quickstart/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/schedule/ScheduledMessageConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/schedule/ScheduledMessageProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/transaction/Consumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/transaction/Producer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/transaction/TransactionCheckListenerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/transaction/TransactionExecuterImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud_parent/cloud_erueka/cloud_erueka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lvz_common/lvz_common.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lvz_demo/User_Interface/User_Interface.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lvz_demo/User_Provider_1001/User_Provider_1001.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lvz_demo/User_Provider_1003/target/classes/cn/it/lvz/provider/UserProviderApplication_1003.class" beforeDir="false" afterPath="$PROJECT_DIR$/lvz_demo/User_Provider_1003/target/classes/cn/it/lvz/provider/UserProviderApplication_1003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lvz_demo/User_Provider_1003/target/classes/cn/it/lvz/provider/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/lvz_demo/User_Provider_1003/target/classes/cn/it/lvz/provider/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lvz_demo/User_Provider_Hystrix_1004/target/classes/cn/lvz/provider/UserProviderApplication_1004.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lvz_demo/User_Provider_Hystrix_1004/target/classes/cn/lvz/provider/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lvz_demo/lvz_demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lvz_demo/zuul_gateway_9002/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lvz_demo/zuul_gateway_9002/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lvz_demo/zuul_gateway_9002/target/classes/cn/it/lvz/ZuulGateWayApplication9002.class" beforeDir="false" afterPath="$PROJECT_DIR$/lvz_demo/zuul_gateway_9002/target/classes/cn/it/lvz/ZuulGateWayApplication9002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lvz_mongodb/lvz_mongodb.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lvz_mongodb/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/lvz_mongodb/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lvz_mongodb/src/test/java/cn/it/lvz/SdnwareOdlApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/lvz_mongodb/src/test/java/cn/it/lvz/SdnwareOdlApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lvz_mq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lvz_mq/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lvz_mybatisplus/lvz_mybatisplus.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lvz_zookeeper/lvz_zookeeper.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plant_parent/plant_parent.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plant_parent/plant_provider/plant_provider.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,6 +91,10 @@
     <ignored path="$PROJECT_DIR$/lvz_mq/lvz_kafka/target/" />
     <ignored path="$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_provider/target/" />
     <ignored path="$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_consumer/target/" />
+    <ignored path="$PROJECT_DIR$/lvz_es/target/" />
+    <ignored path="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/target/" />
+    <ignored path="$PROJECT_DIR$/lvz_sharding-jdbc/target/" />
+    <ignored path="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,77 +115,8 @@
     <expand />
     <select />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1981838100">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="2" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.16" value="2" />
-          <entry key="project.open.time.20" value="2" />
-          <entry key="project.open.time.28" value="1" />
-          <entry key="project.open.time.3" value="3" />
-          <entry key="project.open.time.33" value="1" />
-          <entry key="project.open.time.39" value="1" />
-          <entry key="project.open.time.40" value="1" />
-          <entry key="project.open.time.43" value="1" />
-          <entry key="project.open.time.50" value="2" />
-          <entry key="project.open.time.55" value="1" />
-          <entry key="project.open.time.59" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.61" value="1" />
-          <entry key="project.open.time.63" value="1" />
-          <entry key="project.open.time.66" value="1" />
-          <entry key="project.open.time.67" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="31" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="22" />
-          <entry key="iml" value="13" />
-          <entry key="java" value="183" />
-          <entry key="pom" value="4" />
-          <entry key="properties" value="2" />
-          <entry key="xml" value="76" />
-          <entry key="yml" value="48" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="22" />
-          <entry key="IDEA_MODULE" value="13" />
-          <entry key="JAVA" value="183" />
-          <entry key="Properties" value="2" />
-          <entry key="XML" value="80" />
-          <entry key="YAML" value="48" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="java" value="1592" />
-          <entry key="properties" value="26" />
-          <entry key="txt" value="39" />
-          <entry key="xml" value="283" />
-          <entry key="yml" value="269" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="1592" />
-          <entry key="PLAIN_TEXT" value="39" />
-          <entry key="Properties" value="26" />
-          <entry key="XML" value="283" />
-          <entry key="YAML" value="269" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="lvz_parent" />
@@ -158,42 +124,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_provider/src/main/java/lvz/kafka/provider/controller/KafkaController.java">
+        <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_rocketmq/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="19" column="63" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="63" />
+            <state relative-caret-position="339">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_consumer/src/main/java/cn/lvz/kafka/consumer/KafkaConsumerApplication.java">
+        <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/SyncProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="219">
+              <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_consumer/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_consumer/src/main/java/cn/lvz/kafka/consumer/controller/MyConsumer.java">
+        <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/OnewayProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="302">
+              <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -201,24 +156,71 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_provider/src/main/resources/application.yml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/broadcast/PushConsumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="71" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="71" />
+            <state relative-caret-position="238">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2461#2462#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_provider/src/main/java/lvz/kafka/provider/KafkaProviderApplication.java">
+        <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/transaction/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            <state relative-caret-position="147">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/order/m/Consumer1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/pull_push/PullConsumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#491#511#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/AsyncProducer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="20" column="72" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/Consumer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#943#1382#0" expanded="true" />
+                <element signature="e#1381#1382#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -241,56 +243,22 @@
       <find>org.springframework.kafka</find>
       <find>kafkaTemplate</find>
       <find>send</find>
+      <find>elasticsearchTemplate</find>
+      <find>env</find>
+      <find>ObjectMapper</find>
+      <find>RocketmqRemoting</find>
+      <find>192.168.0.12:9876;192.168.0.13:9876</find>
     </findStrings>
+    <replaceStrings>
+      <replace>192.168.65.135:9876;192.168.65.136:9876</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="D:/myproject/xmarket-server-master" value="PREVIEW" />
-      </map>
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lvz_mongodb/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/lvz_mongodb/src/test/java/cn/it/lvz/test/SdnwareOdlApplicationTests.java" />
-        <option value="$PROJECT_DIR$/lvz_mongodb/src/main/java/cn/it/lvz/JiaozifinGpWebApplication.java" />
-        <option value="$PROJECT_DIR$/lvz_mongodb/src/main/java/cn/it/lvz/MongoApplication.java" />
-        <option value="$PROJECT_DIR$/lvz_mongodb/src/test/java/cn/it/lvz/SdnwareOdlApplicationTests.java" />
-        <option value="$PROJECT_DIR$/lvz_mongodb/src/main/java/cn/it/lvz/dao/SNMPEntity.java" />
-        <option value="$PROJECT_DIR$/lvz_mongodb/src/main/java/cn/it/lvz/controller/MongoTemplateController.java" />
-        <option value="$PROJECT_DIR$/lvz_mongodb/src/main/java/cn/it/lvz/service/impl/NotifyMsgServiceImpl.java" />
-        <option value="$PROJECT_DIR$/lvz_mongodb/src/main/java/cn/it/lvz/service/NotifyMsgService.java" />
-        <option value="$PROJECT_DIR$/lvz_mongodb/src/main/java/cn/it/lvz/repository/NotifyMsgDao.java" />
-        <option value="$PROJECT_DIR$/lvz_mongodb/src/main/java/cn/it/lvz/entity/NotifyMsg.java" />
-        <option value="$PROJECT_DIR$/lvz_mongodb/src/main/java/cn/it/lvz/controller/MongoRepositoryController.java" />
-        <option value="$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/MybatisPlusApplication.java" />
-        <option value="$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/entity/User.java" />
-        <option value="$PROJECT_DIR$/lvz_mybatisplus/src/test/java/cn/it/lvz/SampleTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/lvz_mybatisplus/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/lvz_mybatisplus/pom.xml" />
-        <option value="$PROJECT_DIR$/lvz_mybatisplus/src/main/resources/mybatis-plus.properties" />
-        <option value="$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/service/IUserService.java" />
-        <option value="$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/generator/MpGenerator.java" />
-        <option value="$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/generator/CodeGenerator.java" />
-        <option value="$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/controller/DeptController.java" />
-        <option value="$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/config/MybatisPlusConfig.java" />
-        <option value="$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/entity/BaseEntity.java" />
-        <option value="$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/entity/Dept.java" />
-        <option value="$PROJECT_DIR$/lvz_zookeeper/pom.xml" />
-        <option value="$PROJECT_DIR$/lvz_zookeeper/src/main/java/cn/it/lvz/ZookpeerTest.java" />
-        <option value="$PROJECT_DIR$/lvz_mq/src/main/java/cn/it/lvz/kafka/TestProducer.java" />
-        <option value="$PROJECT_DIR$/lvz_mq/src/main/java/cn/it/lvz/kafka/TestConsumer.java" />
-        <option value="$PROJECT_DIR$/lvz_mq/src/main/java/cn/it/lvz/kafka/TestKafKa.java" />
-        <option value="$PROJECT_DIR$/lvz_mq/src/main/java/cn/it/lvz/kafka/demo/HashPartitioner.java" />
         <option value="$PROJECT_DIR$/lvz_mq/src/main/java/cn/it/lvz/kafka/demo/ProducerDemo.java" />
         <option value="$PROJECT_DIR$/lvz_mq/src/main/java/cn/it/lvz/kafka/demo/DemoConsumer.java" />
         <option value="$PROJECT_DIR$/lvz_zookeeper/src/main/java/cn/it/lvz/CuratorTest.java" />
@@ -307,25 +275,64 @@
         <option value="$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_provider/src/main/java/lvz/kafka/provider/controller/KafkaController.java" />
         <option value="$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_provider/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_consumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/lvz_es/src/main/java/cn/it/lvz/MyConfig.java" />
+        <option value="$PROJECT_DIR$/lvz_es/src/main/java/cn/it/lvz/entity/ElasticSearchController.java" />
+        <option value="$PROJECT_DIR$/lvz_mongodb/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/lvz_es/pom.xml" />
+        <option value="$PROJECT_DIR$/lvz_es/src/main/java/cn/it/lvz/controller/ElasticSearchController.java" />
+        <option value="$PROJECT_DIR$/lvz_es/src/main/java/cn/it/lvz/entity/ESDao.java" />
+        <option value="$PROJECT_DIR$/lvz_es/src/main/java/cn/it/lvz/repository/ESDao.java" />
+        <option value="$PROJECT_DIR$/lvz_es/src/main/java/cn/it/lvz/ESApplication.java" />
+        <option value="$PROJECT_DIR$/lvz_es/src/main/java/cn/it/lvz/entity/ElasticEntity.java" />
+        <option value="$PROJECT_DIR$/lvz_es/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/test/java/RabbitmqHelloApplicationTests.java" />
+        <option value="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/java/cn/it/lvz/send/RabbitmqHelloApplicationTests.java" />
+        <option value="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/test/java/cn/it/lvz/RabbitmqHelloApplication.java" />
+        <option value="$PROJECT_DIR$/lvz_mongodb/src/test/java/cn/it/lvz/SdnwareOdlApplicationTests.java" />
+        <option value="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/java/cn/it/lvz/RabbitMQApplication.java" />
+        <option value="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/target/classes/application.yml" />
+        <option value="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/pom.xml" />
+        <option value="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/java/cn/it/lvz/send/Sender.java" />
+        <option value="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/java/cn/it/lvz/queue/RabbitConfig.java" />
+        <option value="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/java/cn/it/lvz/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/java/cn/it/lvz/receiver/CommonMqListener.java" />
+        <option value="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/test/java/cn/it/lvz/RabbitmqHelloApplicationTests.java" />
+        <option value="$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/java/cn/it/lvz/receiver/Receiver.java" />
+        <option value="$PROJECT_DIR$/lvz_sharding-jdbc/src/main/java/cn/it/lvz/conf/CustomDataSourceHealthCheck.java" />
+        <option value="$PROJECT_DIR$/lvz_sharding-jdbc/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/lvz_sharding-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/pom.xml" />
+        <option value="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/Consumer.java" />
+        <option value="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/AsyncProducer.java" />
+        <option value="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/SyncProducer.java" />
+        <option value="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/OnewayProducer.java" />
+        <option value="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/pull_push/PullConsumer.java" />
+        <option value="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/broadcast/PushConsumer.java" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lvz_sharding-jdbc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="lvz_sharding-jdbc" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-6" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="1022" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -334,8 +341,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -352,29 +357,20 @@
               <item name="lvz_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="lvz_parent" type="462c0819:PsiDirectoryNode" />
               <item name="lvz_mq" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="lvz_rocketmq" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lvz_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="lvz_parent" type="462c0819:PsiDirectoryNode" />
               <item name="lvz_mq" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka_consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lvz_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lvz_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_mq" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="lvz_rocketmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lvz_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="lvz_parent" type="462c0819:PsiDirectoryNode" />
               <item name="lvz_mq" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="lvz_rocketmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -382,8 +378,7 @@
               <item name="lvz_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="lvz_parent" type="462c0819:PsiDirectoryNode" />
               <item name="lvz_mq" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="lvz_rocketmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -392,107 +387,52 @@
               <item name="lvz_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="lvz_parent" type="462c0819:PsiDirectoryNode" />
               <item name="lvz_mq" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="lvz_rocketmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lvz_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="lvz_parent" type="462c0819:PsiDirectoryNode" />
               <item name="lvz_mq" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka_consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="lvz_rocketmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="broadcast" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lvz_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="lvz_parent" type="462c0819:PsiDirectoryNode" />
               <item name="lvz_mq" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka_consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lvz_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lvz_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_mq" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka_provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lvz_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lvz_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_mq" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lvz_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lvz_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_mq" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lvz_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lvz_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_mq" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="lvz_rocketmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="pull_push" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lvz_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="lvz_parent" type="462c0819:PsiDirectoryNode" />
               <item name="lvz_mq" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka_provider" type="462c0819:PsiDirectoryNode" />
+              <item name="lvz_rocketmq" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lvz_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lvz_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_mq" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lvz_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lvz_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_mq" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="lvz_kafka_provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="transaction" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -502,35 +442,36 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557483536264" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1560788264434" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="D:/workspace" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.mvnsearch.intellij.plugin.zookeeper.ui.ZkProjectConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="cn.it.lvz.entity" />
+      <recent name="cn.it.lvz.customer" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="cn.it.lvz" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\lvz_parent\lvz_mq\lvz_kafka\lvz_kafka_provider" />
-      <recent name="D:\code\lvz_parent\lvz_mq\lvz_kafka\lvz_kafka_consumer" />
-      <recent name="D:\code\lvz_parent\lvz_mq\lvz_kafka\lvz_kafka_consumer\src\main\resources" />
-      <recent name="D:\code\lvz_parent\lvz_mq\src\main\java\cn\it\lvz\kafka\demo" />
-      <recent name="D:\code\lvz_parent\lvz_demo\zuul_gateway_9001" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.lvz.kafka.consumer" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="cn.it.lvz.entity" />
-      <recent name="cn.it.lvz.customer" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\lvz_parent\lvz_mq\lvz_rocketmq\src\main\java\cn\it\lvz\demo" />
+      <recent name="D:\code\lvz_parent\lvz_mq\lvz_kafka\lvz_kafka_provider" />
+      <recent name="D:\code\lvz_parent\lvz_mq\lvz_kafka\lvz_kafka_consumer" />
+      <recent name="D:\code\lvz_parent\lvz_mq\lvz_kafka\lvz_kafka_consumer\src\main\resources" />
+      <recent name="D:\code\lvz_parent\lvz_mq\src\main\java\cn\it\lvz\kafka\demo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -545,74 +486,71 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.KafkaConsumerApplication (1)">
-    <configuration name="KafkaApplicationTests.contextLoads (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lvz_kafka_provider" />
+  <component name="RunManager" selected="Application.OnewayProducer">
+    <configuration name="AsyncProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.it.lvz.demo.AsyncProducer" />
+      <module name="lvz_rocketmq" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lvz.test.*" />
+          <option name="PATTERN" value="cn.it.lvz.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.lvz.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.lvz.test.KafkaApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Consumer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.it.lvz.demo.Consumer" />
+      <module name="lvz_rocketmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.it.lvz.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OnewayProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.it.lvz.demo.OnewayProducer" />
+      <module name="lvz_rocketmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.it.lvz.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SyncProducer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.it.lvz.demo.SyncProducer" />
+      <module name="lvz_rocketmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.it.lvz.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqHelloApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lv_rabbitMQ" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.it.lvz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.it.lvz" />
+      <option name="MAIN_CLASS_NAME" value="cn.it.lvz.RabbitmqHelloApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KafkaApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lvz_kafka_consumer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lvz.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.lvz.test" />
-      <option name="MAIN_CLASS_NAME" value="cn.lvz.test.KafkaApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KafkaConsumerApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="kafka (1)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lvz.kafka.consumer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.lvz.kafka.consumer.KafkaConsumerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KafkaProviderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="kafka (1)" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lvz.kafka.provider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="lvz.kafka.provider.KafkaProviderApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KafkaProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="lvz_kafka_provider" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lvz.kafka.provider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="lvz.kafka.provider.KafkaProviderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -625,20 +563,20 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.RabbitmqHelloApplicationTests.test" />
       <item itemvalue="Spring Boot.MongoApplication" />
-      <item itemvalue="Spring Boot.KafkaProviderApplication" />
-      <item itemvalue="JUnit.KafkaApplicationTests.contextLoads" />
-      <item itemvalue="JUnit.KafkaApplicationTests.contextLoads (1)" />
-      <item itemvalue="Spring Boot.KafkaConsumerApplication (1)" />
-      <item itemvalue="Spring Boot.KafkaProviderApplication (1)" />
+      <item itemvalue="Application.Consumer" />
+      <item itemvalue="Application.AsyncProducer" />
+      <item itemvalue="Application.OnewayProducer" />
+      <item itemvalue="Application.SyncProducer" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.KafkaProviderApplication (1)" />
-        <item itemvalue="Spring Boot.KafkaConsumerApplication (1)" />
-        <item itemvalue="Spring Boot.KafkaProviderApplication" />
-        <item itemvalue="JUnit.KafkaApplicationTests.contextLoads (1)" />
-        <item itemvalue="JUnit.KafkaApplicationTests.contextLoads" />
+        <item itemvalue="Application.OnewayProducer" />
+        <item itemvalue="Application.SyncProducer" />
+        <item itemvalue="Application.AsyncProducer" />
+        <item itemvalue="Application.Consumer" />
+        <item itemvalue="JUnit.RabbitmqHelloApplicationTests.test" />
       </list>
     </recent_temporary>
   </component>
@@ -682,7 +620,27 @@
       <workItem from="1557364649440" duration="1440000" />
       <workItem from="1557475538047" duration="4587000" />
       <workItem from="1557484208748" duration="588000" />
-      <workItem from="1557709761139" duration="1055000" />
+      <workItem from="1557709761139" duration="3327000" />
+      <workItem from="1557795905900" duration="1197000" />
+      <workItem from="1557882974531" duration="2027000" />
+      <workItem from="1557969315698" duration="573000" />
+      <workItem from="1559009467247" duration="1209000" />
+      <workItem from="1559092568837" duration="594000" />
+      <workItem from="1559275667815" duration="594000" />
+      <workItem from="1559525204090" duration="2317000" />
+      <workItem from="1559617658372" duration="13727000" />
+      <workItem from="1559713391566" duration="5913000" />
+      <workItem from="1559737464881" duration="625000" />
+      <workItem from="1559820585225" duration="628000" />
+      <workItem from="1560216996915" duration="8709000" />
+      <workItem from="1560302651627" duration="9565000" />
+      <workItem from="1560387909384" duration="17573000" />
+      <workItem from="1560474168249" duration="2057000" />
+      <workItem from="1560735571430" duration="6404000" />
+      <workItem from="1560834874628" duration="505000" />
+      <workItem from="1561443630971" duration="3010000" />
+      <workItem from="1561511840561" duration="596000" />
+      <workItem from="1561598260954" duration="3949000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交">
       <created>1554772393134</created>
@@ -705,43 +663,50 @@
       <option name="project" value="LOCAL" />
       <updated>1555313677544</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="5.13新增springboot kafka">
+      <created>1557732264550</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557732264551</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SdnwareOdlApplicationTests_getAllDataTests - 2019.04.15 at 14h 29m 18s.xml">
-      <configuration name="SdnwareOdlApplicationTests.getAllDataTests" configurationId="JUnit" />
+    <history-entry file="RabbitmqHelloApplicationTests_hello - 2019.06.11 at 19h 08m 54s.xml">
+      <configuration name="RabbitmqHelloApplicationTests.hello" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleTest_testSelect - 2019.04.18 at 09h 39m 32s.xml">
-      <configuration name="SampleTest.testSelect" configurationId="JUnit" />
+    <history-entry file="RabbitmqHelloApplicationTests_hello - 2019.06.13 at 16h 21m 32s.xml">
+      <configuration name="RabbitmqHelloApplicationTests.hello" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleTest_testSelect - 2019.04.18 at 09h 45m 51s.xml">
-      <configuration name="SampleTest.testSelect" configurationId="JUnit" />
+    <history-entry file="RabbitmqHelloApplicationTests_hello - 2019.06.13 at 16h 23m 32s.xml">
+      <configuration name="RabbitmqHelloApplicationTests.hello" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleTest_testSelect - 2019.04.18 at 09h 48m 57s.xml">
-      <configuration name="SampleTest.testSelect" configurationId="JUnit" />
+    <history-entry file="RabbitmqHelloApplicationTests_test - 2019.06.13 at 16h 26m 29s.xml">
+      <configuration name="RabbitmqHelloApplicationTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleTest_testSelect - 2019.04.18 at 10h 04m 16s.xml">
-      <configuration name="SampleTest.testSelect" configurationId="JUnit" />
+    <history-entry file="RabbitmqHelloApplicationTests_test - 2019.06.13 at 16h 26m 48s.xml">
+      <configuration name="RabbitmqHelloApplicationTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleTest_testSelect - 2019.04.18 at 10h 17m 11s.xml">
-      <configuration name="SampleTest.testSelect" configurationId="JUnit" />
+    <history-entry file="RabbitmqHelloApplicationTests_test - 2019.06.13 at 16h 28m 22s.xml">
+      <configuration name="RabbitmqHelloApplicationTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleTest_testSelect - 2019.04.18 at 10h 24m 37s.xml">
-      <configuration name="SampleTest.testSelect" configurationId="JUnit" />
+    <history-entry file="RabbitmqHelloApplicationTests_test - 2019.06.13 at 16h 30m 13s.xml">
+      <configuration name="RabbitmqHelloApplicationTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SampleTest_testSelect - 2019.04.18 at 11h 37m 14s.xml">
-      <configuration name="SampleTest.testSelect" configurationId="JUnit" />
+    <history-entry file="RabbitmqHelloApplicationTests_test - 2019.06.13 at 16h 30m 34s.xml">
+      <configuration name="RabbitmqHelloApplicationTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KafkaApplicationTests_contextLoads - 2019.05.08 at 17h 49m 42s.xml">
-      <configuration name="KafkaApplicationTests.contextLoads" configurationId="JUnit" />
+    <history-entry file="RabbitmqHelloApplicationTests_test - 2019.06.13 at 16h 34m 26s.xml">
+      <configuration name="RabbitmqHelloApplicationTests.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="KafkaApplicationTests_contextLoads_(1) - 2019.05.08 at 17h 51m 13s.xml">
-      <configuration name="KafkaApplicationTests.contextLoads (1)" configurationId="JUnit" />
+    <history-entry file="RabbitmqHelloApplicationTests_test - 2019.06.13 at 16h 34m 56s.xml">
+      <configuration name="RabbitmqHelloApplicationTests.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132506000" />
+    <option name="totallyTimeSpent" value="216550000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -756,7 +721,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.32329988" visible="true" weight="0.24635416" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.32329988" visible="true" weight="0.29211086" />
       <window_info id="Structure" order="1" sideWeight="0.6763006" side_tool="true" weight="0.29957357" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" sideWeight="0.37186897" side_tool="true" weight="0.29957357" />
@@ -768,13 +733,13 @@
       <window_info id="ZooKeeper" order="9" sideWeight="0.49909583" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32861805" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.44722524" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997773" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.47327393" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45596433" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32998884" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.32998884" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49895832" weight="0.36996734" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49895832" weight="0.33741647" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50104165" side_tool="true" weight="0.36996734" />
       <window_info anchor="bottom" id="Statistic" order="11" weight="0.32998884" />
@@ -784,7 +749,7 @@
       <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
       <window_info anchor="bottom" id="Spring" order="16" weight="0.32998884" />
       <window_info anchor="bottom" id="Java Enterprise" order="17" sideWeight="0.49946696" weight="0.32998884" />
-      <window_info anchor="bottom" id="Messages" order="18" sideWeight="0.49946696" weight="0.38084874" />
+      <window_info anchor="bottom" id="Messages" order="18" sideWeight="0.49946696" weight="0.38641426" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -794,21 +759,32 @@
       <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info anchor="right" id="JRebel Setup Guide" order="9" visible="true" weight="0.32239583" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="9" visible="true" weight="0.3219616" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="11" weight="0.32995737" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第一次提交" />
     <MESSAGE value="4.15新增springboot mongodb" />
     <MESSAGE value="4.15新增springboot mongodb1" />
-    <option name="LAST_COMMIT_MESSAGE" value="4.15新增springboot mongodb1" />
+    <MESSAGE value="5.13新增springboot kafka" />
+    <option name="LAST_COMMIT_MESSAGE" value="5.13新增springboot kafka" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/java/cn/it/lvz/controller/MainController.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="ZooKeeperConfig">
     <option name="host" value="192.168.65.130:2181,192.168.65.130:2182,192.168.65.130:2183" />
@@ -823,275 +799,39 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/entity/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/entity/Dept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mybatisplus/src/test/java/cn/it/lvz/SampleTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/config/MybatisPlusConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="31" column="41" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/controller/DeptController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mybatisplus/src/main/resources/mapper/lvz/DeptMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_demo/User_Provider_1001/src/main/java/cn/it/lvz/provider/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_demo/User_Provider_1001/src/main/java/cn/it/lvz/provider/UserProviderApplication_1001.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mongodb/src/main/java/cn/it/lvz/controller/MongoRepositoryController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mongodb/src/main/java/cn/it/lvz/controller/MongoTemplateController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mongodb/src/main/java/cn/it/lvz/dao/SNMPEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mongodb/src/main/java/cn/it/lvz/dao/SNMPDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mongodb/src/main/java/cn/it/lvz/customer/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mongodb/src/main/java/cn/it/lvz/customer/Hobby.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mongodb/src/main/java/cn/it/lvz/repository/NotifyMsgDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="13" column="74" lean-forward="true" selection-start-line="13" selection-start-column="74" selection-end-line="13" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka_2.11/0.8.2.1/kafka_2.11-0.8.2.1.jar!/kafka/producer/Partitioner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="13" column="41" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mq/src/main/java/cn/it/lvz/kafka/TestProducer.java" />
-    <entry file="file://$PROJECT_DIR$/lvz_mq/src/main/java/cn/it/lvz/kafka/demo/DemoConsumer.java" />
-    <entry file="file://$PROJECT_DIR$/lvz_zookeeper/src/main/java/cn/it/lvz/ZookpeerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="22" column="94" selection-start-line="22" selection-start-column="94" selection-end-line="22" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_zookeeper/src/main/java/cn/it/lvz/CuratorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="22" column="37" lean-forward="true" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mq/src/main/java/cn/it/lvz/kafka/demo/RoundRobinPartitioner.java" />
-    <entry file="file://$PROJECT_DIR$/lvz_mq/src/main/java/cn/it/lvz/kafka/TestKafKa.java" />
-    <entry file="file://$PROJECT_DIR$/lvz_mq/src/main/java/cn/it/lvz/kafka/TestConsumer.java" />
-    <entry file="file://$PROJECT_DIR$/lvz_mq/src/main/java/cn/it/lvz/kafka/demo/HashPartitioner.java" />
-    <entry file="file://$PROJECT_DIR$/lvz_mq/src/main/java/cn/it/lvz/kafka/demo/ProducerDemo.java" />
-    <entry file="file://$PROJECT_DIR$/lvz_zookeeper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/1.3.0.RELEASE/spring-kafka-1.3.0.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mq/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/lvz_mq/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="33" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.1.2.RELEASE/spring-kafka-2.1.2.RELEASE.jar!/org/springframework/kafka/core/KafkaTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.5.RELEASE/spring-boot-autoconfigure-2.0.5.RELEASE.jar!/org/springframework/boot/autoconfigure/kafka/KafkaAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="46" column="44" selection-start-line="46" selection-start-column="44" selection-end-line="46" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_provider/src/test/java/cn/lvz/test/KafkaApplicationTests.java" />
-    <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_consumer/src/test/java/cn/lvz/test/KafkaApplicationTests.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/2.1.0.RELEASE/spring-kafka-2.1.0.RELEASE.jar!/org/springframework/kafka/core/KafkaTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_kafka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_provider/pom11.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_consumer/pom222.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_consumer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_provider/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="67" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/kafka/spring-kafka/1.1.6.RELEASE/spring-kafka-1.1.6.RELEASE.jar!/org/springframework/kafka/core/KafkaTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="81" column="43" selection-start-line="81" selection-start-column="42" selection-end-line="81" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.1.1/kafka-clients-0.10.1.1.jar!/org/apache/kafka/clients/producer/ProducerRecord.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.1.1/kafka-clients-0.10.1.1.jar!/org/apache/kafka/clients/producer/Callback.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.1.1/kafka-clients-0.10.1.1.jar!/org/apache/kafka/clients/InFlightRequests.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/kafka/kafka-clients/0.10.1.1/kafka-clients-0.10.1.1.jar!/org/apache/kafka/clients/KafkaClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_provider/src/main/java/lvz/kafka/provider/controller/KafkaController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="19" column="63" selection-start-line="19" selection-start-column="56" selection-end-line="19" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_consumer/src/main/java/cn/lvz/kafka/consumer/KafkaConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_consumer/src/main/java/cn/lvz/kafka/consumer/controller/MyConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="486">
           <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/5.6.11/elasticsearch-5.6.11.jar!/org/elasticsearch/common/transport/TransportAddress.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_es/src/main/java/cn/it/lvz/MyConfig.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.10.RELEASE/spring-data-commons-2.0.10.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mongodb/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-elasticsearch/3.0.10.RELEASE/spring-data-elasticsearch-3.0.10.RELEASE.jar!/org/springframework/data/elasticsearch/repository/ElasticsearchRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-244">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1102,22 +842,329 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_demo/User_Interface/src/main/java/cn/it/lvz/provider/client/UserClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_es/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_es/src/main/java/cn/it/lvz/entity/ElasticEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_es/src/main/java/cn/it/lvz/repository/ESDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_es/src/main/java/cn/it/lvz/ESApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_es/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_provider/src/main/java/lvz/kafka/provider/KafkaProviderApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="297">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_es/src/main/java/cn/it/lvz/controller/ElasticSearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/test/java/cn/it/lvz/RabbitmqHelloApplication.java" />
+    <entry file="file://$PROJECT_DIR$/lvz_mq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/rabbitmq/amqp-client/3.5.7/amqp-client-3.5.7.jar!/com/rabbitmq/client/impl/AMQImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1997" column="24" selection-start-line="1997" selection-start-column="24" selection-end-line="1997" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_kafka/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/lv_rabbitMQ.iml" />
+    <entry file="file://$PROJECT_DIR$/lvz_mongodb/src/test/java/cn/it/lvz/SdnwareOdlApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="28" column="45" lean-forward="true" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mongodb/src/main/java/cn/it/lvz/MongoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/target/classes/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/java/cn/it/lvz/queue/RabbitConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="18" column="33" selection-end-line="122" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/java/cn/it/lvz/RabbitMQApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_consumer/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/java/cn/it/lvz/receiver/CommonMqListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="23" column="67" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mybatisplus/src/main/java/cn/it/lvz/generator/MpGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mybatisplus/src/test/java/cn/it/lvz/SampleTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/java/cn/it/lvz/send/Sender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/test/java/cn/it/lvz/RabbitmqHelloApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/java/cn/it/lvz/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mq/lv_rabbitMQ/src/main/java/cn/it/lvz/receiver/Receiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/io/shardingjdbc/sharding-jdbc-core-spring-boot-starter/2.0.3/sharding-jdbc-core-spring-boot-starter-2.0.3.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/zaxxer/HikariCP/3.2.0/HikariCP-3.2.0.jar!/com/zaxxer/hikari/HikariDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="19" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/2.0.5.RELEASE/spring-boot-starter-2.0.5.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_sharding-jdbc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_sharding-jdbc/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_sharding-jdbc/src/main/java/cn/it/lvz/conf/CustomDataSourceHealthCheck.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-dbcp2/2.5.0/commons-dbcp2-2.5.0.jar!/org/apache/commons/dbcp2/BasicDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="3" column="2" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_rocketmq/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#943#1382#0" expanded="true" />
+            <element signature="e#1381#1382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/AsyncProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="20" column="72" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/SyncProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="17" column="40" lean-forward="true" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/OnewayProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="17" column="37" lean-forward="true" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/transaction/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/order/m/Consumer1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/pull_push/PullConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#491#511#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lvz_mq/lvz_rocketmq/src/main/java/cn/it/lvz/demo/broadcast/PushConsumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2461#2462#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1173,7 +1220,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>lvz_kafka_provider</last-edited>
+          <last-edited>lvz_rocketmq</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

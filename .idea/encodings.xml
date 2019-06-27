@@ -13,12 +13,16 @@
     <file url="file://$PROJECT_DIR$/lvz_demo/User_consumer_1005" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lvz_demo/User_consumer_feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lvz_demo/zuul_gateway_9002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvz_es" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lvz_mongodb" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lvz_mq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvz_mq/lv_rabbitMQ" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lvz_mq/lvz_kafka" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_consumer" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lvz_mq/lvz_kafka/lvz_kafka_provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvz_mq/lvz_rocketmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lvz_mybatisplus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/lvz_sharding-jdbc" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/lvz_zookeeper" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/plant_parent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/plant_parent/plant_provider" charset="UTF-8" />

@@ -17,6 +17,7 @@
         <module>lvz_mybatisplus</module>
         <module>lvz_zookeeper</module>
         <module>lvz_mq</module>
+        <module>lvz_es</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

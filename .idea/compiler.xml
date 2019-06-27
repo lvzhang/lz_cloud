@@ -6,20 +6,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="cloud_erueka" />
-        <module name="kafka (2)" />
-        <module name="lvz_common" />
-        <module name="lvz_mongodb" />
-        <module name="lvz_mybatisplus" />
-        <module name="lvz_zookeeper" />
-        <module name="plant_provider" />
-        <module name="User_consumer_1005" />
-        <module name="User_consumer_feign" />
-        <module name="User_Interface" />
+        <module name="User_Provider_1002" />
         <module name="User_Provider_1001" />
-        <module name="User_Provider_1003" />
-        <module name="User_Provider_Hystrix_1004" />
         <module name="zuul_gateway_9002" />
+        <module name="lv_rabbitMQ" />
+        <module name="lvz_mybatisplus" />
+        <module name="kafka (2)" />
+        <module name="cloud_erueka" />
+        <module name="lvz_common" />
+        <module name="User_Interface" />
+        <module name="lvz_rocketmq" />
+        <module name="plant_provider" />
+        <module name="User_Provider_Hystrix_1004" />
+        <module name="lvz_mongodb" />
+        <module name="User_consumer_1005" />
+        <module name="User_consumer_1002" />
+        <module name="User_consumer_feign" />
+        <module name="lvz_zookeeper" />
+        <module name="lvz_es" />
+        <module name="User_Provider_1003" />
       </profile>
       <profile name="Annotation profile for lvz_parent" enabled="true">
         <sourceOutputDir name="../lvz_kafka_provider/target/generated-sources/annotations" />
@@ -31,7 +36,13 @@
     <bytecodeTargetLevel>
       <module name="lvz_kafka_consumer" target="1.5" />
       <module name="lvz_kafka_provider" target="1.8" />
+      <module name="lvz_sharding-jdbc" target="1.5" />
       <module name="zuul_gateway_9001" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="lv_rabbitMQ" options="-parameters" />
+    </option>
   </component>
 </project>

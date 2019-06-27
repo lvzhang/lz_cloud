@@ -13,6 +13,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>lvz_kafka</module>
+        <module>lv_rabbitMQ</module>
+        <module>lvz_rocketmq</module>
     </modules>
     <dependencies>
         <!--kafka start-->
